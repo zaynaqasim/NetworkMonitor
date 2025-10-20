@@ -38,7 +38,7 @@ The program captures for 60 seconds then shows results.
 
 Default interface is `lo` (loopback). To change it, edit main.cpp line 450:
 ```cpp
-const char* interface = "lo";  // change to your interface
+const char* interface = "lo";  
 ```
 
 Find your interfaces with: `ip link show`
